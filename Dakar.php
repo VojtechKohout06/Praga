@@ -1,6 +1,7 @@
 <?php
             $cssTitle = "Dakar.css";
             $imgHref = "Praga-Logo_Black.png";
+            $title = "Dakar";
             include("header.php");
         ?>
         
