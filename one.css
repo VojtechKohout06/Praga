@@ -1,0 +1,275 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 165);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    line-height: 150%;
+}
+
+li a{
+    color: white;
+}
+
+h1{
+    margin-left: 3%;
+    font-size: 3.4em;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+h2{
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+h3{
+    font-weight: lighter;
+    font-size: 0.85em;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+h4{
+    margin: 0;
+    margin-left: 5%;
+}
+
+aside{
+    font-style: italic;
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+    font-size: 1.3em;
+    margin-top: 14.4%;
+}
+
+article{
+    margin-top: 17%;
+}
+
+.img{
+    width: 100%;
+    background-color: white;
+}
+
+.text{
+    margin-left: 3%;
+    margin-right: 10%;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 14%;
+}
+
+.line{
+    width: 90%;
+}
+
+.copyright{
+    color: gray;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.discover{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    width: 70%;
+    margin-left: 3%;
+    font-weight: bolder;  
+    margin-bottom: 10%;  
+}
+
+
+.logo{
+    width: 18%;
+    padding: 3%;
+    margin-left: 37.5%;
+}
+
+.logol{
+    width: 18%;
+    padding: 3%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.container{
+    display: grid;
+}
+
+.Bohema{
+    grid-row: 1;
+}
+
+.R1{
+    color: white;
+    background: linear-gradient(0deg, rgb(41, 41, 41) 60%, white);
+    padding-top: 30%;
+}
+
+.R1 a{
+    color: white;
+}
+
+.ZS_800{
+    margin-top: 25%;
+}
+
+.Karts{
+    color: white;
+    background: linear-gradient(0deg, rgb(0, 0, 165) 60%, white);
+    padding-top: 30%;
+}
+
+.Karts a{
+    color: white;
+}
+
+.Aviation{
+    margin-top: 25%;
+}
+
+.Dakar{
+    background: linear-gradient(0deg, #f74741 60%, white);
+    padding-top: 30%;
+    color: white;
+
+}
+
+.Dakar a{
+    color: white;
+}
+
+.footgrid{
+    display: grid;
+    color: white;
+    margin-left: 3%;
+}
+
+
+@media screen and (min-width: 800px) {
+
+    h3{
+        font-size: 1em
+    }
+   
+    header{
+        height: 10%;
+    }
+
+    .logo{
+        width: 9%;
+        padding: 0.5%;
+        margin-left: 40%;
+    }
+    
+    aside{
+        padding: 2% 0% 2% 0%;
+        margin-top: 5%;
+    }
+
+    article{
+        margin-top: 3%;
+    }
+
+    .text{
+        margin-bottom: 5%;
+    }
+
+    .left{
+        float: left;
+        width: 50%;
+    }
+
+    .right{
+        float: right;
+        width: 50%;
+    }
+
+    .right-black{
+        padding-top: 5%;
+        float: right;
+        width: 50%;
+        background: linear-gradient(0deg, rgb(41, 41, 41) 70%, white);
+    }
+
+    .right-blue{
+        padding-top: 5%;
+        float: right;
+        width: 50%;
+    }
+
+    .right-red{
+        padding-top: 5%;
+        float: right;
+        width: 50%;
+        background: linear-gradient(0deg, #f74741 70%, white);
+    }
+
+    .logol{
+        width: 10%;
+        padding: 0;
+        margin-top: 1%;
+    }
+
+    .footgrid{
+        margin-top: 7%;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .Carsf{
+        margin-bottom: 20%;
+    }
+
+    .Copyright{
+        grid-column: 1/7;
+    }
+
+    .R1{
+        padding-top: 0;
+    }
+
+    .ZS_800{
+        margin-top: 0;
+    }
+
+    .Karts{
+        padding-top: 0;
+    }
+
+    .Aviation{
+        margin-top: 0;
+    }
+
+    .Dakar{
+        padding-top: 0;
+    }
+}

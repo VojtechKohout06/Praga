@@ -1,0 +1,454 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: black;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+    line-height: 150%;
+}
+
+li a{
+    color: white;
+}
+h2{
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.line{
+    width: 90%;
+}
+
+.logo{
+    width: 18%;
+    padding: 3%;
+    margin-left: 37.5%;
+}
+
+.logol{
+    width: 18%;
+    padding: 3%
+}
+
+.copyright{
+    color: gray;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.footgrid{
+    display: grid;
+    color: white;
+    margin-left: 3%;
+}
+
+.smaller{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 2em;
+    line-height: 80%;
+    color: white;
+}
+
+.track{
+    line-height: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.front{
+    width: 100%;
+}
+
+.paragraph{
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 170%;
+    color: white;
+    font-family: "Hrot Premium";
+    font-size: 1.1em;
+}
+
+.parameters{
+    color: #b2a072;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 3em;
+    font-family: "Hrot Premium";
+}
+
+.parameters-left{
+    color: #b2a072;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 3em;
+    font-family: "Hrot Premium";
+    float: left;
+    width: 42%;
+}
+
+.parameters-right{
+    color: #b2a072;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 3em;
+    font-family: "Hrot Premium";
+    float: right;
+    width: 42%;
+}
+
+.ratio{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1.3em;
+    font-family: "Hrot Premium";
+    color: white;
+}
+
+.line-gold{
+     width: 60%;
+     margin-right: 36%;
+     margin-top: 15%;
+}
+
+.img{
+    width: 100%;
+}
+
+.autogram{
+    color: #b2a072;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2em;
+    font-family: "Hrot Premium";
+}
+
+.imgptw{
+    width: 100%;
+}
+
+.simple{
+    margin-top: 15%;
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 170%;
+    color: white;
+    font-family: "Hrot Premium";
+    font-size: 1.4em;
+    margin-bottom: 3%;
+}
+
+.drive{
+    color: #b2a072;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2.5em;
+    font-family: "Hrot Premium";
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.specs-paragraph{
+    width: 80%;
+    margin-left: 5%;
+    padding: 5%;
+    line-height: 200%;
+    color: black;
+    font-family: "Hrot Premium";
+    font-size: 1.1em;
+    background-color: white;
+}
+
+.specs-header{
+    margin-top: 10%;
+    font-size: 1.5em;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.construction{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: "Hrot Premium";
+    font-size: 1.1em;
+    line-height: 150%;
+}
+
+.construction1{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: "Hrot Premium";
+    font-size: 1.1em;
+    line-height: 150%;
+    width: 92%;
+    max-width: 479px;
+}
+
+.width{
+    width: 50%;
+}
+
+.gold-text{
+    color:#b2a072
+}
+
+.Galerie-header{
+    color: #b2a072;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Hrot Premium";
+}
+
+.container{
+    display: grid;
+}
+
+.ultimate{
+    background-color: black;
+}
+
+.text{
+    background-color: black;
+}
+
+.Grossjean{
+    background-color: black;
+    padding-top: 15%;
+}
+
+.ptw{
+    background-color: black;
+}
+
+.on_track{
+    background-color: black;
+}
+
+.lightweight{
+    background-color: black;
+}
+
+.aerodinamics{
+    background-color: black;
+}
+
+.experience{
+    background-color: black;
+}
+
+.comfort{
+    background-color: black;
+}
+
+.specs{
+    background-color: rgb(230, 230, 230);
+    padding-bottom: 10%;
+}
+
+.galerie{
+    background-color: black;
+}
+
+.fact{
+    background-color: black;
+}
+
+.gold-paragraph{
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 170%;
+    color: #b2a072;
+    font-family: "Hrot Premium";
+    font-size: 1.1em;
+}
+
+.comfort-container{
+    display: grid;
+}
+
+@media screen and (min-width: 800px) {
+
+    .logol{
+        width: 10%;
+        padding: 0;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+
+    .footgrid{
+        margin-top: 7%;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .Carsf{
+        margin-bottom: 20%;
+    }
+
+    .Copyright{
+        grid-column: 1/7;
+    }
+
+    .smaller{
+        margin-top: 6%;
+        font-size: 3em;
+    }
+
+    .track{
+        font-size: 4em;
+    }
+
+    .imgptw{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .paragraph{
+        font-size: 1.2em;
+    }
+
+    .line-gold{
+        margin-top: 23%;
+    }
+
+    .parameters-left{
+        margin-top: 18%;
+    }
+
+    .parameters-right{
+        margin-top: 18%;
+    }
+
+    .left{
+        float: left;
+        width: 50%;
+    }
+
+    .right{
+        float: right;
+        width: 50%;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .construction{
+        width: 42%;
+        float: left;
+    }
+
+    .construction1{
+        width: 42%;
+        float: right;
+        margin-bottom: 11%;
+    }
+
+    .specs-left{
+        float: left;
+        width: 35%;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+
+    .simple{
+        margin-top: 4%;
+    }
+
+    .smallerimg{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+    .comfort-container{
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 5%;
+    }
+
+
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ultimate{
+        grid-column: 1/3;
+    }
+
+    .Grossjean{
+        padding-top: 0;
+    }
+
+    .ptw{
+        grid-column: 1/3;
+    }
+
+    .on_track{
+        grid-column: 1/3;
+    }
+
+    .lightweight{
+        grid-column: 1/3;
+    }
+
+    .aerodinamics{
+        grid-column: 1/3;
+    }
+
+    .experience{
+        grid-column: 1/3;
+    }
+
+    .comfort{
+        grid-column: 1/3;
+    }
+
+    .comfort p{
+        text-align: center;
+    }
+
+    .galerie{
+        grid-column: 1/3;
+    }
+
+    .specs{
+        grid-column: 1/3;
+        padding-bottom: 0;
+    }
+
+    .fact{
+        grid-column: 1/3;
+    }
+}
