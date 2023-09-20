@@ -1,6 +1,7 @@
 <?php
             $cssTitle = "moto.css";
             $imgHref = "Praga-Logo_Black.png";
+            $title = "ZS 800";
             include("header.php");
         ?>
 
