@@ -41,7 +41,7 @@
         </div>
         <div class="Copyright" style="grid-column: 1/7;">
             <hr class="line"/>
-           <p class="copyright">Copyright © 2023 Vojtěch Kohout</p>
+           <p class="copyright">Copyright © 2023 Vojtěch Kohout Images and texts by: https://pragaglobal.com/cs/</p>
         </div>
     </div>
     </div>
