@@ -1,6 +1,7 @@
 <?php
             $cssTitle = "Bohema.css";
             $imgHref = "Praga-Logo_White.png";
+            $title = "Bohema";
             include("header.php");
         ?>
         
