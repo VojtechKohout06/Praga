@@ -9,6 +9,6 @@
         <link rel="stylesheet" href="css/lightbox.min.css" type="text/css" media="screen" />
         <script src="js/lightbox-plus-jquery.min.js"></script>
         <script src="js/lightbox.min.js"></script>
-        <title>Praga</title>
+        <title><?php echo $title ?></title>
     </head>
     <body>
