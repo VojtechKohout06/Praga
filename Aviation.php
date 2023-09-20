@@ -1,6 +1,7 @@
 <?php
             $cssTitle = "Aviation.css";
             $imgHref = "Praga-Logo_Black.png";
+            $title = "Aviation";
             include("header.php");
             
         ?>
