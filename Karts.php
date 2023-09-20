@@ -2,6 +2,7 @@
             $cssTitle = "Karts.css";
             $imgHref = "Praga-Logo_Black.png";
             include("header.php");
+            $title = "Karts";
         ?>
 
 <header>
